@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARCANE | Project Jinx</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body class="dark-theme">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top nav-gradient py-3">
+        <div class="container-fluid px-4">
+<a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="images/nav-icon.png" alt="Nav Icon" class="nav-icon">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+                <ul class="navbar-nav align-items-center gap-3 text-uppercase tracking-wide nav-links">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="story.html">Story</a></li>
+                    <li class="nav-item"><a class="nav-link" href="quotes.html">Quotes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gadgets.html">Gadgets</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero section-hero d-flex align-items-center justify-content-center text-center overflow-hidden position-relative">
+            <div class="hero-bg"></div>
+            <div class="hero-overlay"></div>
+            <div class="container position-relative hero-content">
+                <h1 class="display-3 fw-bold hero-title mb-4">
+                    Watch <span class="text-primary">JINX</span> on Arcane
+                </h1>
+                <div class="d-flex flex-column flex-sm-row justify-content-center align-items-center gap-3">
+                    <a class="btn btn-primary btn-xl rounded-pill shadow-lg" href="https://youtu.be/sEkvAp7TKfQ" target="_blank">
+                        <span class="ms-2">▶ Play Trailer</span>
+                    </a>
+                    <a class="btn btn-primary text-white btn-xl rounded-pill" href="https://youtu.be/sEkvAp7TKfQ" target="_blank">Watch Now</a>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span class="material-symbols-outlined scroll-arrow">expand_more</span>
+                <p>Scroll down for more info</p>
+            </div>
+        </section>
+
+        <section id="insights" class="py-5 bg-surface text-light">
+            <div class="container px-4">
+                <div class="mb-5 text-center">
+                    <span class="eyebrow text-tertiary">The Undercity Chronicles</span>
+                    <h2 class="display-6 fw-bold text-white mt-3">A deeper look into Zaun and Piltover</h2>
+                    <div class="divider mx-auto mt-3"></div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-6">
+                        <article class="card card-glass h-100 overflow-hidden text-white">
+                            <div class="card-body d-flex flex-column justify-content-end p-4">
+                                <span class="eyebrow text-tertiary mb-2">Location Profile</span>
+                                <h3 class="card-title display-6 fw-bold text-uppercase">Zaun: The Deep City</h3>
+                                <p class="card-text">The chaotic underbelly of Zaun, where chemtech fuels desperate innovation.</p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-lg-6">
+                        <article class="card card-glass h-100 p-4 d-flex flex-column justify-content-between">
+                            <div>
+                                <span class="eyebrow text-secondary">Character Spotlight</span>
+                                <h3 class="display-6 fw-bold text-uppercase text-white mt-3">Vi: The Enforcer</h3>
+                                <p class="card-text text-white">Vi fights for Piltover while carrying Zaun's scars.</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5 bg-surface-container-lowest text-center position-relative overflow-hidden">
+            <div class="radial-backdrop"></div>
+            <div class="container position-relative">
+                <span class="material-symbols-outlined quote-icon text-primary">Quote</span>
+                <p class="display-6 fw-bold text-white fst-italic mt-4 mb-5">"I thought maybe you could love me like you used to, even though I'm different. But you changed too."</p>
+                <div class="d-flex justify-content-center align-items-center gap-3">
+                    <span class="divider-line"></span>
+                    <span class="text-uppercase fw-black text-primary small letter-spacing">Jinx</span>
+                    <span class="divider-line"></span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer py-5 px-4 text-light">
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-4">
+            <div>
+                <div class="footer-brand">PROJECT JINX</div>
+                <p class="footer-copy mb-0">© 2024 RIOT GAMES. ARCANE AND ALL RELATED LOGOS ARE TRADEMARKS OF RIOT GAMES, INC.</p>
+            </div>
+
+    </footer>
+
+</body>
+</html>

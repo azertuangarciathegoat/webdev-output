@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About | Project Jinx</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body class="dark-theme">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top nav-gradient py-3">
+        <div class="container-fluid px-4">
+<a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="images/nav-icon.png" alt="Nav Icon" class="nav-icon">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+                <ul class="navbar-nav align-items-center gap-3 text-uppercase tracking-wide nav-links">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="story.html">Story</a></li>
+                    <li class="nav-item"><a class="nav-link" href="quotes.html">Quotes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gadgets.html">Gadgets</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero section-hero d-flex align-items-center justify-content-center text-center overflow-hidden position-relative min-vh-50">
+            <div class="hero-bg"></div>
+            <div class="hero-overlay"></div>
+            <div class="container position-relative hero-content">
+                <h1 class="display-4 fw-bold hero-title mb-3">About <span class="text-primary">Project Jinx</span></h1>
+                <p class="lead text-white-75" style="padding-bottom: 30px;">A fan-made visual experience spotlighting the Arcane universe, Zaun's shadows, and the tragic brilliance of Jinx.</p>
+            </div>
+            <div class="scroll-indicator">
+                <span class="material-symbols-outlined scroll-arrow">expand_more</span>
+                <p>Scroll down for more info</p>
+            </div>
+        </section>
+
+        <!-- Character Spotlight Section: Jinx -->
+        <section id="foundation" class="position-relative overflow-hidden bg-black d-flex align-items-center min-vh-80">
+            <!-- Prominent Image Background -->
+            <div class="position-absolute inset-0 z-0">
+            <img class="opacity-50" style="object-position: center;" src="images/arcane-city.jpg" class="w-100 h-100 object-fit-cover"/>
+                <div class="position-absolute inset-0 bg-black opacity-60 bg-gradient" style="background: linear-gradient(to right, black, rgba(0,0,0,0.6), transparent);"></div>
+            </div>
+            <div class="container px-4 position-relative z-2 py-5">
+                <div class="row justify-content-lg-between align-items-center gy-5">
+                    <div class="col-lg-7 col-xl-5">
+                        <span class="eyebrow text-secondary d-block mb-3 small text-uppercase" style="letter-spacing: 0.3em; font-weight: bold;">Character Spotlight</span>
+                        <h2 class="display-2 fw-black text-white mb-3 text-uppercase lh-1" style="font-family: 'Space Grotesk', sans-serif; font-weight: 900; letter-spacing: -0.05em; font-style: italic; text-shadow: 0 4px 30px rgba(0,0,0,0.8);">
+                            WHO IS <span class="text-primary">JINX?</span>
+                        </h2>
+                        <h3 class="h3 fw-black text-info mb-4 text-uppercase" style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; letter-spacing: 0.2em; opacity: 0.9;">
+                            Chaos. Trauma. Genius.
+                        </h3>
+                        <p class="lead text-white mb-5" style="font-size: 1.3rem; max-width: 28rem;">
+                            Jinx is a chaotic and brilliant fighter from Zaun, shaped by loss and abandonment. Once known as Powder, she is a symbol of how trauma can turn pain into destruction.
+                        </p>
+                    </div>
+                    <div class="col-lg-5 col-xl-4 ms-auto d-none d-lg-flex justify-content-end">
+                        <img src="images/jinx-with-cat.png" alt="Jinx with cat" class="img-fluid rounded-3 shadow-lg" style="max-height: 450px; width: auto; object-fit: cover; box-shadow: 0 1.5rem 2.5rem rgba(0,0,0,0.75);"/>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Zaun Environment Section -->
+        <section id="zaun" class="position-relative overflow-hidden bg-black d-flex align-items-center min-vh-70">
+            <!-- Prominent Image Background -->
+            <div class="position-absolute inset-0 z-0">
+            <img class="opacity-50" style="object-position: center;" src="images/zaun-bg.jpg" class="w-100 h-100 object-fit-cover"/>
+                <div class="position-absolute inset-0 bg-black opacity-60 bg-gradient" style="background: linear-gradient(to right, black, rgba(0,0,0,0.6), transparent);"></div>
+            </div>
+            <div class="container px-4 position-relative z-2 py-5">
+                <div class="row justify-content-start">
+                    <div class="col-lg-8 col-xl-6">
+                        <span class="eyebrow text-secondary d-block mb-3 small text-uppercase" style="letter-spacing: 0.3em; font-weight: bold;">World Setting</span>
+                        <h2 class="display-2 fw-black text-white mb-3 text-uppercase lh-1" style="font-family: 'Space Grotesk', sans-serif; font-weight: 900; letter-spacing: -0.05em; font-style: italic; text-shadow: 0 4px 30px rgba(0,0,0,0.8);">
+                            WHAT IS <span class="text-primary">ZAUN?</span>
+                        </h2>
+                        <h3 class="h3 fw-black text-info mb-4 text-uppercase" style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; letter-spacing: 0.2em; opacity: 0.9;">
+                            Underground. Toxic. Ambitious.
+                        </h3>
+                        <p class="lead text-white mb-5" style="font-size: 1.3rem; max-width: 28rem;">
+                            Zaun's chemtech streets breed danger and ambition. This fan project brings Arcane's visual language to life using Bootstrap templates, maintaining connected structure across pages for immersive Jinx storytelling.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer py-5 px-4 text-light">
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-4">
+            <div>
+                <div class="footer-brand">PROJECT JINX</div>
+                <p class="footer-copy mb-0">© 2024 RIOT GAMES. ARCANE AND ALL RELATED LOGOS ARE TRADEMARKS OF RIOT GAMES, INC.</p>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- Trailer Modal -->
+    <div class="modal fade" id="trailerModal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header border-0">
+            <h5 class="modal-title text-white fw-bold">Arcane Trailer</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <iframe class="trailer-iframe w-100" src="https://www.youtube.com/embed/FqlAm43qS0Q?autoplay=1&mute=0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
